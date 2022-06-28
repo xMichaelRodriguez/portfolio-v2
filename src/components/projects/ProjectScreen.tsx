@@ -30,6 +30,14 @@ const cardsProjects = [
     uriDemo: "https://spotiry.netlify.app",
     uriCode: "https://github.com/xMichaelRodriguez/spotiry",
   },
+  {
+    id: 2123,
+    image: "https://raw.githubusercontent.com/xMichaelRodriguez/images/main/image.png",
+    title: "Connect 4",
+    typeApp: "Web App",
+    uriDemo: "",
+    uriCode: "https://github.com/xMichaelRodriguez/connect-four/",
+  },
 ];
 export const ProjectScreen = () => {
   return (

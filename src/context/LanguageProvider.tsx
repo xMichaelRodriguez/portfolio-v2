@@ -55,7 +55,6 @@ interface props {
 export const LanguageProvider = ({ children }: props) => {
   const [language, setLanguage] = useState<string>(initialLanguage);
   const [texts, setTexts] = useState(translations[language]);
-  console.log({ texts, language });
 
   const handleLanguage = (e: any) => {
     if (e === 'es') {
